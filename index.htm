@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chain</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <div id="navbar">
+        <div class="container">
+            <nav id="nav">
+                <a href="index.htm" id="logo">
+                    <img src="img/logo.png" alt="Logo" />
+                </a>
+                <button onclick="ac()" id="nav-icon-ac" class="nav-icon">
+                    <i class="fa-solid fa-bars textqara"></i>
+                </button>
+                <button onclick="bagla()" id="nav-icon-bagla" class="nav-icon">
+                    <i class="fa-solid fa-xmark textqara"></i>
+                </button>
+                <ul id="menu">
+                    <li><a class="textmavi" href="">Home</a></li>
+                    <li><a class="textqara" href="">Services</a></li>
+                    <li><a class="textqara" href="">About</a></li>
+                    <li><a class="textqara" href="">Pricing</a></li>
+                    <li><a class="textqara" href="">Newslatter</a></li>
+                    <li id="link-end"><button onclick="modalAc()" class="textwhite" href=""><i class="fa-solid fa-right-to-bracket"></i> Sign In
+                            Now</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- navbar end  -->
+    <!-- modal start  -->
+    <div id="modal-container">
+        <div id="modal" class="textqara">
+            <div id="modal-title">
+                <p class="align-self-center">LOGIN</p>
+                <button onclick="modalBagla()" class="bgmavi"><i class="fa-solid fa-xmark textwhite"></i></button>
+            </div>
+            <div id="modal-body">
+                <div class="modal-connect">
+                    <span style="background-color: #3B5998;"><i class="fa-brands fa-square-facebook textwhite"></i></span><p class="align-self-center">Connect with Facebook</p>
+                </div>
+                <div class="modal-connect">
+                    <span style="background-color: #DD4B39;"><i class="fa-brands fa-google-plus-g textwhite"></i></span><p class="align-self-center">Connect with Google</p>
+                </div>
+                <p class="textcenter textboz">Or Use Your Email Address</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="modal-btn bgmavi textwhite">Login</div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="modal-btn bgmavi textwhite">Sign up</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end  -->
+    <!-- header start  -->
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div id="header-left" class="textcenter">
+                            <h1 class="textqara">Get The Latest App From App Stores</h1>
+                            <p class="textboz">Chain App Dev is an app landing page HTML5 template based on Bootstrap
+                                v5.1.3 CSS layout provided by TemplateMo, a great website to download free CSS
+                                templates.</p>
+                            <a href="">Free Quote <i class="fa-brands fa-apple"></i></a>
+                            <a href="">Free Quote <i class="fa-brands fa-google-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="header-right">
+                            <img class="w-100" src="img/slider-dec.png" alt="header-right-img" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end  -->
+    <!-- main start  -->
+    <main>
+        <section id="services">
+            <div class="container">
+                <div id="title" class="textcenter">
+                    <h3 class="textqara">Amazing <span class="textmavi">Services & Features</span> For You</h3>
+                    <img src="img/heading-line-dec.png" alt="xetler" />
+                    <p class="textboz">If you need the greatest collection of HTML templates for your business, please visit TooCSS Blog. If you need to have a contact form PHP script, go to our contact page for more information.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="services-item textcenter">
+                            <div class="icon">
+                                <img src="img/service-icon-01.png" alt="">
+                            </div>
+                            <h4 class="textqara">App Maintenance</h4>
+                            <p class="textboz">You are not allowed to redistribute this template ZIP file on any other website.</p>
+                            <a href="">Read More ➝</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="services-item textcenter">
+                            <div class="icon">
+                                <img src="img/service-icon-02.png" alt="">
+                            </div>
+                            <h4 class="textqara">Rocket Speed of App</h4>
+                            <p class="textboz">You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+                            <a href="">Read More ➝</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="services-item textcenter">
+                            <div class="icon">
+                                <img src="img/service-icon-03.png" alt="">
+                            </div>
+                            <h4 class="textqara">Multi Workflow Idea</h4>
+                            <p class="textboz">If this template is beneficial for your work, please support us a little via PayPal. Thank you.</p>
+                            <a href="">Read More ➝</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="services-item textcenter">
+                            <div class="icon">
+                                <img src="img/service-icon-04.png" alt="">
+                            </div>
+                            <h4 class="textqara">24/7 Help & Support</h4>
+                            <p class="textboz">Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+                            <a href="">Read More ➝</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div id="about-left">
+                            <div id="title" class="textcenter">
+                                <h3 class="textqara">About <span class="textmavi">What We Do</span> & Who We Are</h3>
+                                <img src="img/heading-line-dec.png" alt="xetler" />
+                                <p style="width: 100%;" class="textboz">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-s-6">
+                                    <div class="about-item textcenter">
+                                        <h5 class="textqara">Maintance Problems</h5>
+                                        <p class="textboz">Lorem Ipsum Text</p>
+                                    </div>
+                                </div>
+                                <div class="col-s-6">
+                                    <div class="about-item textcenter">
+                                        <h5 class="textqara">24/7 Support & Help</h5>
+                                        <p class="textboz">Lorem Ipsum Text</p>
+                                    </div>
+                                </div>
+                                <div class="col-s-6">
+                                    <div class="about-item textcenter">
+                                        <h5 class="textqara">Fixing Issues About</h5>
+                                        <p class="textboz">Lorem Ipsum Text</p>
+                                    </div>
+                                </div>
+                                <div class="col-s-6">
+                                    <div class="about-item textcenter">
+                                        <h5 class="textqara">Co. Development</h5>
+                                        <p class="textboz">Lorem Ipsum Text</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="textcenter textboz">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing magna.</p>
+                            <div id="about-start" class="textcenter">
+                                <button class="textwhite">
+                                    Start 14-Day Free Trial
+                                </button>
+                                <p>*No Credit Card Required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="about-right">
+                            <img src="img/about-right-dec.png" alt="about-right-img" width="100%" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="clients">
+            <div class="container">
+                <div id="title" class="textcenter">
+                    <h3 class="textqara">Check What <span class="textmavi">The Clients Say</span> About Our App Dev</h3>
+                    <img src="img/heading-line-dec.png" alt="xetler" />
+                    <p class="textboz">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="clients-left-item">
+                            <div class="clients-item textcenter">
+                                <div class="clients-name">
+                                    <p class="textmavi">David Martino Co</p>
+                                    <span class="textboz">30 November 2021</span>
+                                </div>
+                                <p class="textboz">Financial Apps</p>
+                                <div class="clients-rat">
+                                    <i class="fas fa-star textmavi"></i>
+                                    <i class="fas fa-star textmavi"></i>
+                                    <i class="fas fa-star textmavi"></i>
+                                    <i class="fas fa-star textmavi"></i>
+                                    <i class="fas fa-star textmavi"></i>
+                                    <span class="textmavi">4.8</span>
+                                </div>
+                            </div>
+                            <div class="clients-item textcenter">
+                                <div class="clients-name">
+                                    <p class="textqara">Jake Harris Nyo</p>
+                                    <span class="textboz">29 November 2021</span>
+                                </div>
+                                <p class="textboz">Financial Apps</p>
+                                <div class="clients-rat">
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <span class="textboz">4.5</span>
+                                </div>
+                            </div>
+                            <div class="clients-item textcenter">
+                                <div class="clients-name">
+                                    <p class="textqara">May Catherina</p>
+                                    <span class="textboz">27 November 2021</span>
+                                </div>
+                                <p class="textboz">Financial Apps</p>
+                                <div class="clients-rat">
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <span class="textboz">4.7</span>
+                                </div>
+                            </div>
+                            <div class="clients-item textcenter">
+                                <div class="clients-name">
+                                    <p class="textqara">Random User</p>
+                                    <span class="textboz">24 November 2021</span>
+                                </div>
+                                <p class="textboz">Financial Apps</p>
+                                <div class="clients-rat">
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <span class="textboz">3.9</span>
+                                </div>
+                            </div>
+                            <div class="clients-item textcenter">
+                                <div class="clients-name">
+                                    <p class="textqara">Mark Amber Do</p>
+                                    <span class="textboz">21 November 2021</span>
+                                </div>
+                                <p class="textboz">Financial Apps</p>
+                                <div class="clients-rat">
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <i class="fas fa-star textboz"></i>
+                                    <span class="textboz">4.3</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="clients-right-item">
+                            <div class="clients-comment">
+                                <img src="img/quote.png" alt="quote" />
+                                <p class="textwhite">“May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                            </div>
+                            <div class="clients-img">
+                                <img src="img/client-image.jpg" alt="client-img" />
+                                <div id="right-text">
+                                    <p class="textqara">May C.</p>
+                                    <span class="textqara">Founder of Catherina Co.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="prices">
+            <div class="container">
+                <div id="title" class="textcenter">
+                    <h3 class="textqara">We Have The Best Pre-Order <span class="textmavi">Prices </span> You Can Get</h3>
+                    <img src="img/heading-line-dec.png" alt="xetler" />
+                    <p class="textboz">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="prices-item">
+                            <span class="textwhite">$12</span>
+                            <h4 class="textcenter">Standart Plan App</h4>
+                            <div class="textcenter">
+                                <img src="img/pricing-table-01.png" alt="table-image" />
+                            </div>
+                            <ul class="textcenter">
+                                <li class="textmavi">Lorem Ipsum Dolores</li>
+                                <li class="textmavi">20 TB of Storage</li>
+                                <li class="textboz line">Life-time Support</li>
+                                <li class="textboz line">Premium Add-Ons</li>
+                                <li class="textboz line">Fastest Network</li>
+                                <li class="textboz line">More Options</li>
+                            </ul>
+                            <div class="prices-btn textcenter">
+                                <button class="textmavi">Purchase This Plan Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="prices-item-pro">
+                            <span class="textwhite">$25</span>
+                            <h4 class="textcenter">Business Plan App</h4>
+                            <div class="textcenter">
+                                <img src="img/pricing-table-01.png" alt="table-image" />
+                            </div>
+                            <ul class="textcenter">
+                                <li class="textmavi">Lorem Ipsum Dolores</li>
+                                <li class="textmavi">20 TB of Storage</li>
+                                <li class="textmavi">Life-time Support</li>
+                                <li class="textmavi">Premium Add-Ons</li>
+                                <li class="textboz line">Fastest Network</li>
+                                <li class="textboz line">More Options</li>
+                            </ul>
+                            <div class="prices-btn textcenter">
+                                <button class="textmavi">Purchase This Plan Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="prices-item">
+                            <span class="textwhite">$66</span>
+                            <h4 class="textcenter">Premium Plan App</h4>
+                            <div class="textcenter">
+                                <img src="img/pricing-table-01.png" alt="table-image" />
+                            </div>
+                            <ul class="textcenter">
+                                <li class="textmavi">Lorem Ipsum Dolores</li>
+                                <li class="textmavi">20 TB of Storage</li>
+                                <li class="textmavi">Life-time Support</li>
+                                <li class="textmavi">Premium Add-Ons</li>
+                                <li class="textmavi">Fastest Network</li>
+                                <li class="textmavi">More Options</li>
+                            </ul>
+                            <div class="prices-btn textcenter">
+                                <button class="textmavi">Purchase This Plan Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main end  -->
+    <!-- footer start  -->
+    <footer>
+        <div class="container">
+            <h2 class="textqara textcenter">Join Our Mailing List To Receive The News & Latest Trends</h2>
+            <div class="row">
+                <div class="col-lg-6" id="form">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <input class="textboz" type="email" placeholder="Email Address...">
+                            </div>
+                            <div class="col-lg-6">
+                                <button class="textmavi">Subscribe Now ›</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer-item">
+                        <h3 class="textwhite textcenter">Contact Us</h3>
+                        <p class="textwhite">Rio de Janeiro - RJ, 22795-008, Brazil</p>
+                        <p class="textwhite">010-020-0340</p>
+                        <p class="textwhite">info@company.co</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-item">
+                        <h3 style="padding: 0 10px;" class="textwhite textcenter">About Us</h3>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="textcenter">
+                                    <li class="textwhite">Home</li>
+                                    <li class="textwhite">Services</li>
+                                    <li class="textwhite">About</li>
+                                    <li class="textwhite">Testimonials</li>
+                                    <li class="textwhite">Pricing</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="textcenter">
+                                    <li class="textwhite">About</li>
+                                    <li class="textwhite">Testimonials</li>
+                                    <li class="textwhite">Pricing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-item">
+                        <h3 style="padding: 0 10px;" class="textwhite textcenter">Useful Links</h3>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="textcenter">
+                                    <li class="textwhite">Free Apps</li>
+                                    <li class="textwhite">App Engine</li>
+                                    <li class="textwhite">Programming</li>
+                                    <li class="textwhite">Development</li>
+                                    <li class="textwhite">App News</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="textcenter">
+                                    <li class="textwhite">App Dev Team</li>
+                                    <li class="textwhite">Digital Web</li>
+                                    <li class="textwhite">Normal Apps</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-item">
+                        <h3 class="textwhite textcenter">About Our Company</h3>
+                        <div class="footer-img textcenter">
+                            <img src="img/white-logo.png" alt="white logo" />
+                        </div>
+                        <p class="textwhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-end textwhite textcenter">Copyright © 2022 Chain App Dev Company. All Rights Reserved. <br> Design: TemplateMo</p>
+        </div>
+    </footer>
+    <!-- footer end  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
